@@ -1,0 +1,136 @@
+.Posts {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /* width: 80%; */
+    width: 800px;
+    /* margin: auto; */
+    /* border: solid green;    */
+    position: relative;
+    margin-top: 4rem;
+    font-family: 'Open Sans', sans-serif;
+    /* height: 35rem; */
+    overflow: scroll;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    
+    max-height: 100%;  
+}
+
+.Posts-Page {
+    /* display: flex;*/
+    flex-direction: row; 
+    /* border: solid yellow; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* -ms-flex-wrap: wrap;
+    flex-wrap: wrap; */
+    height: 90vh; 
+    justify-content: center;
+    max-height: 100;
+
+}
+
+.Answer-Info h1 {
+    margin-top: 0;
+}
+
+.Menu {
+    /* border: solid greenyellow;  */
+    margin: 0 25px;
+    width: 200px;
+    margin-top: 4rem;
+    margin-right: 50px;
+    max-height: 80%;
+}
+
+.Menu h1 {
+    margin-top: 0;
+}
+
+.Menu-Items {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 25px; */
+    margin: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+
+    
+}
+
+hr {
+    width: 90%;
+}
+
+.Menu-Items li {
+    /* border-radius: 25px; */
+    margin-top: 15px;
+    /* margin-bottom: 15px;  */
+    
+}
+
+.Menu-Items ul {
+    display: flex;
+    flex-flow: column;
+    text-align: left;
+
+    
+    
+}
+
+.Answer-Info {
+    /* border: solid red;  */
+    position: relative;
+    margin-top: 4rem;
+    font-family: 'Open Sans', sans-serif;
+    height: 35rem;
+    margin-left: 100px
+}
+
+.box {
+    background: white;
+    /* margin: auto;
+    margin-top: 5%;
+    max-width: 30%; */
+    /* padding: 20px 50px; */
+    /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+    /* transition: all 0.3s cubic-bezier(.25,.8,.25,1); */
+    font-weight: 600;
+    color: #1A8FE3;
+    
+  }
+  
+  .box:visited {
+      text-decoration: none;
+  }
+  /* .box:hover {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    animation-name: example;
+    animation-duration: 0.15s;
+    border-left: 8px solid blue;
+    /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
+   
+  
+
+  @keyframes example {
+      0%   {border-left: 2px solid #ffffff;}
+      25%  {border-left: 3px solid #ffe6e6;}
+      50%  {border-left: 4px solid black;}
+      100% {border-left: 5px solid1 #2;}
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+}
+
+a:-webkit-any-link {
+    color: none;
+}
+
+section a { color: grey; } 
+
+
